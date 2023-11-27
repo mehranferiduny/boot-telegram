@@ -3,7 +3,7 @@ const { message } = require('telegraf/filters');
 const { fall } = require('./db');
 
 
-const bot = new Telegraf("6606907112:AAEjKrTmR04l1-phoWfjkAJ0g7RrbX84xGc")
+const bot = new Telegraf("TOKEN_BOT_TELEGRAM")
 const start=`سلام خیلی خوش آمدی دوست من👋 
 چجوری میتونم کمکت کنم
  جهت راهنمایی    /help کلیک کنید`;
