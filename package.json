@@ -1,0 +1,22 @@
+{
+  "name": "boot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.63.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "socks5-https-client": "^1.2.1",
+    "telegraf": "^4.15.0"
+  }
+}
